@@ -1,0 +1,23 @@
+<h1 id="tableLabel">Courses</h1>
+
+<p>This component demonstrates fetching data from the server.</p>
+
+<p *ngIf="!courses"><em>Loading...</em></p>
+
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="courses">
+  <thead>
+    <tr>
+      <th>CourseID</th>
+      <th>Title</th>
+      <th>Credits</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let course of courses">
+      <td>{{ course.courseID }}</td>
+      <td>{{ course.title }}</td>
+      <td>{{ course.credits }}</td>
+    </tr>
+  </tbody>
+</table>
+
