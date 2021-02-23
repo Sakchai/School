@@ -33,7 +33,7 @@ namespace School.API
                 options.AddDefaultPolicy(
                                   builder =>
                                   {
-                                      builder.WithOrigins("https://localhost:44323")
+                                      builder.WithOrigins("https://localhost:5021")
                                       .AllowAnyHeader()
                                       .AllowAnyMethod();
                                   });
