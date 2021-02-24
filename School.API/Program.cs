@@ -7,9 +7,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using School.API.Data;
+using School.Domain.Data;
 
-namespace School.API
+namespace School.Domain
 {
     public class Program
     {

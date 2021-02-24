@@ -1,11 +1,11 @@
-﻿using School.API.Model;
+﻿using School.Domain.Model;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace School.API.Data
+namespace School.Domain.Data
 {
     public class SchoolContext : DbContext
     {

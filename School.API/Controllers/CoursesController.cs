@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using School.API.Data;
-using School.API.Model;
+using School.Domain.Data;
+using School.Domain.Model;
 
-namespace School.API.Controllers
+namespace School.Domain.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

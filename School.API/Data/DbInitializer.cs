@@ -1,10 +1,10 @@
-﻿using School.API.Model;
+﻿using School.Domain.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace School.API.Data
+namespace School.Domain.Data
 {
     public static class DbInitializer
     {
